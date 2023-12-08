@@ -58,13 +58,6 @@
   color: #0077b5;
 }
 
-.leetcode{
-  color: rgb(255, 194, 51)
-}
-.angellist {
-  color: grey;
-}
-
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
@@ -72,10 +65,6 @@
 
 .linkedin:hover {
   background-color: #0077b5;
-}
-
-.angellist:hover {
-  background-color: grey;
 }
 
 .github:hover {
