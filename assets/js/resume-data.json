@@ -1,7 +1,7 @@
 {
   "about": {
-    "intro": "I am a current Computer Science graduate student at the University of South Florida, and I bring a robust background in problem-solving and coding cultivated through a diverse array of technologies, including Python, Django, Flask, MySQL, MongoDB, HTML5/CSS, and Java.",
-    "experience": "With 22 months of professional experience, I have strengthened my proficiency in Cloud Technologies and DevOps. My passion lies in the development of sophisticated applications aimed at solving real-world problems that impact a substantial user base.",
+    "intro": "I am a current Computer Science graduate from the University of South Florida, and I bring a robust background in problem-solving and coding cultivated through a diverse array of technologies, including Python, Django, Flask, MySQL, MongoDB, HTML5/CSS, and Java.",
+    "experience": "With around 3 years of professional experience, I have strengthened my proficiency in Cloud Technologies and DevOps. My passion lies in the development of sophisticated applications aimed at solving real-world problems that impact a substantial user base.",
     "goal": "Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, Data Science which provides professional development, interesting experiences and personal growth."
   },
   "skills": {
@@ -17,8 +17,21 @@
       "company": "Experian",
       "logo": "assets/img/experian-logo.png",
       "position": "Software Engineer",
-      "period": "Sep 2022 - July 2023",
-      "location": "Hyderabad, India",
+      "period": "Sep 2024 - Present",
+      "location": "Remote, USA",
+      "responsibilities": [
+        "Built an automated file scan service using Apache Airflow that performs malware scan on all external files and transfers to the desired destination, used by more than 20 teams and over 1 million files transferred.",
+        "Designed and developed new features for the environment, fixed various bugs, critical production and performance issues",
+        "Created and managed various AWS resources using Terraform",
+        "Tools: Apache Airflow, Python, Terraform, Linux, Jenkins, Jira, AWS - EC2, S3, VPC and other services"
+      ]
+    },
+    {
+      "company": "University of South Florida",
+      "logo": "assets/img/usf-logo.png",
+      "position": "Research Assistant",
+      "period": "Aug 2024 - Jan 2025",
+      "location": "Tampa, USA",
       "responsibilities": [
         "Built an automated file scan service using Apache Airflow that performs malware scan on all external files and transfers to the desired destination, used by more than 20 teams and over 1 million files transferred.",
         "Designed and developed new features for the environment, fixed various bugs, critical production and performance issues",
@@ -29,8 +42,8 @@
     {
       "company": "Experian",
       "logo": "assets/img/experian-logo.png",
-      "position": "Software Engineer Trainee",
-      "period": "Nov 2021 - Sep 2022",
+      "position": "Software Engineer",
+      "period": "Nov 2021 - July 2023",
       "location": "Hyderabad, India",
       "responsibilities": [
         "Performed Unit testing for APIs using JUnit5, Mockito2",
