@@ -2,7 +2,7 @@
   "about": {
     "intro": "I am a Computer Science graduate from University of South Florida with a strong foundation in software engineering, cloud computing, and applied AI. I specialize in building intelligent, scalable systems that bridge automation, data, and user-centric design.",
     "experience": "With over 3 years of professional experience, I’ve worked across full-stack engineering, NLP research, and cloud-native infrastructure. My work spans designing distributed data workflows, building AI-powered applications, and deploying production systems on AWS and Kubernetes.",
-    "goal": "I aim to work on impactful engineering problems at the intersection of software, cloud, and AI—contributing to scalable systems that empower users and drive innovation."
+    "goal": "I aim to work on impactful engineering problems at the intersection of software, cloud, and AI; contributing to scalable systems that empower users and drive innovation."
   },
   "skills": {
     "Languages": ["Python", "Java", "JavaScript"],
