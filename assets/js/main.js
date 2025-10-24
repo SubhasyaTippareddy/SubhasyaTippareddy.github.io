@@ -14,7 +14,21 @@ const loadingSpinner = document.getElementById('loading-spinner');
 const errorMessage = document.getElementById('error-message');
 
 // Filter out certain repositories (like this portfolio itself)
-const EXCLUDED_REPOS = ['SubhasyaTippareddy.github.io', 'portfolio'];
+// Add repository names here to exclude them from the projects section
+const EXCLUDED_REPOS = [
+  'SubhasyaTippareddy.github.io',  // Portfolio repo
+  'portfolio',    
+  'OS_Project1',                  // Old portfolio
+  'OS_Project2',
+  'OS_Project3',
+  'OS_Project4',
+  'AC_project1',
+  'AC_project2',
+  'Algorithms_Projects'
+  // Add more repository names here:
+  // 'repo-name-1',
+  // 'repo-name-2',
+];
 
 // Open resume function
 function openResume() {
