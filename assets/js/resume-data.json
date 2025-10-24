@@ -1,55 +1,58 @@
 {
   "about": {
-    "intro": "I am a current Computer Science graduate from the University of South Florida, and I bring a robust background in problem-solving and coding cultivated through a diverse array of technologies, including Python, Django, Flask, MySQL, MongoDB, HTML5/CSS, and Java.",
-    "experience": "With around 3 years of professional experience, I have strengthened my proficiency in Cloud Technologies and DevOps. My passion lies in the development of sophisticated applications aimed at solving real-world problems that impact a substantial user base.",
-    "goal": "Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, Data Science which provides professional development, interesting experiences and personal growth."
+    "intro": "I am a Computer Science graduate from the University of South Florida with a strong foundation in software engineering, cloud computing, and applied AI. I specialize in building intelligent, scalable systems that bridge automation, data, and user-centric design.",
+    "experience": "With over 3 years of professional experience, I’ve worked across full-stack engineering, NLP research, and cloud-native infrastructure. My work spans designing distributed data workflows, building AI-powered applications, and deploying production systems on AWS and Kubernetes.",
+    "goal": "I aim to work on impactful engineering problems at the intersection of software, cloud, and AI—contributing to scalable systems that empower users and drive innovation."
   },
   "skills": {
-    "Languages": ["Python", "Java", "JavaScript", "C", "HTML/CSS"],
-    "Databases": ["MySQL", "MongoDB"],
-    "Cloud & DevOps": ["AWS", "Terraform", "Jenkins", "Git", "JIRA"],
-    "Frameworks": ["Django", "Flask", "Node.js", "REST", "Spring Boot"],
-    "Testing & Tools": ["JUnit5", "Mockito", "Apache Airflow"],
-    "Data Science": ["NumPy", "Pandas", "scikit-learn", "Machine Learning", "Keras"]
+    "Languages": ["Python", "Java", "JavaScript"],
+    "Frontend Development": ["React.js", "HTML", "CSS", "Vercel AI SDK"],
+    "Frameworks & Libraries": ["Django", "Flask", "FastAPI", "Node.js", "Spring Boot", "JUnit 5", "Mockito"],
+    "Cloud & DevOps": ["AWS (EKS, S3, RDS, EFS, EMR, Lambda, EC2, SageMaker, Bedrock)", "Terraform", "Apache Airflow", "Docker", "Kubernetes", "Jenkins"],
+    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Chroma", "FAISS"],
+    "Machine Learning & NLP": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "SpaCy", "Transformers", "LangChain", "ClinicalBERT", "LLMs"],
+    "Developer & Collaboration Tools": ["Git", "Bitbucket", "JIRA", "Confluence", "Google Colab"]
   },
   "experience": [
     {
       "company": "Experian",
       "logo": "assets/img/experian-logo.png",
       "position": "Software Engineer",
-      "period": "Sep 2024 - Present",
+      "period": "Oct 2024 - Present",
       "location": "Remote, USA",
       "responsibilities": [
-        "Built an automated file scan service using Apache Airflow that performs malware scan on all external files and transfers to the desired destination, used by more than 20 teams and over 1 million files transferred.",
-        "Designed and developed new features for the environment, fixed various bugs, critical production and performance issues",
-        "Created and managed various AWS resources using Terraform",
-        "Tools: Apache Airflow, Python, Terraform, Linux, Jenkins, Jira, AWS - EC2, S3, VPC and other services"
+        "Led end-to-end development for a centralized workflow automation platform on AWS using Apache Airflow, enabling 15+ teams to manage ETL pipelines and large-scale batch processing.",
+        "Designed and implemented a cloud-native monitoring framework, reducing incident resolution time by 30%.",
+        "Automated onboarding workflows, increasing operational efficiency by 50% and reducing manual dependencies.",
+        "Migrated application architecture from EC2 to EKS (Kubernetes) for isolated, cost-efficient scaling.",
+        "Technologies: Python, Docker, Kubernetes, Helm, Terraform, EMR, EKS, ECR, SQS, Spark, Java, Jenkins."
       ]
     },
     {
-      "company": "University of South Florida",
+      "company": "University of South Florida - Department of Computer Science",
       "logo": "assets/img/usf-logo.png",
       "position": "Research Assistant",
       "period": "Aug 2024 - Jan 2025",
       "location": "Tampa, USA",
       "responsibilities": [
-        "Built an automated file scan service using Apache Airflow that performs malware scan on all external files and transfers to the desired destination, used by more than 20 teams and over 1 million files transferred.",
-        "Designed and developed new features for the environment, fixed various bugs, critical production and performance issues",
-        "Created and managed various AWS resources using Terraform",
-        "Tools: Apache Airflow, Python, Terraform, Linux, Jenkins, Jira, AWS - EC2, S3, VPC and other services"
+        "Developed an NLP pipeline to extract structured data from unstructured uterine cancer pathology reports using OCR.",
+        "Built a transformer-based model to identify key medical entities and map them to ICD-10 codes.",
+        "Developed a RAG-based clinical QA system using vector databases and React UI, reducing manual interpretation time by 60%.",
+        "Technologies: Python, AWS Textract, SpaCy, Transformers, ClinicalBERT, LangChain, Chroma, FastAPI, SageMaker, Vercel AI SDK."
       ]
     },
     {
       "company": "Experian",
       "logo": "assets/img/experian-logo.png",
       "position": "Software Engineer",
-      "period": "Nov 2021 - July 2023",
+      "period": "Sep 2021 - Jul 2023",
       "location": "Hyderabad, India",
       "responsibilities": [
-        "Performed Unit testing for APIs using JUnit5, Mockito2",
-        "Created a platform on top of AWS for teams to automate workflow management using Apache Airflow in Single and distributed architecture",
-        "Onboarding and support for 10+ teams",
-        "Tools: Apache Airflow, Python, Java, Terraform, AWS, Spring Boot (Basic), JUnit5, Mockito, Linux, Jenkins, Jira"
+        "Developed an automated malware scanning service for external files, used globally to process over 100 million files across 7 regions.",
+        "Created Splunk dashboards for real-time analytics, improving visibility and performance tracking.",
+        "Implemented CI/CD pipelines for DAG deployment and infrastructure provisioning, reducing manual effort by 70%.",
+        "Mentored junior engineers and conducted technical onboarding sessions.",
+        "Technologies: Python, Jenkins, Terraform, Apache Airflow, RDS, VPC, EFS, SQS, EC2, S3, CloudWatch."
       ]
     }
   ]
